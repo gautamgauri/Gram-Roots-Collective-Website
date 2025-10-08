@@ -24,10 +24,15 @@ enableRobotsTXT = true
   primaryColor = "#1F6B6B"
   secondaryColor = "#C5642A"
   accentColor = "#D9A441"
+  
+  # PaperMod specific settings
+  themeVariant = "light"
+  themeVariantAuto = false
 
 [params.assets]
   favicon = "favicon.ico"
   customCSS = ["css/extended/brand.css"]
+  customJS = []
 
 [menu]
   [[menu.main]]

@@ -8,74 +8,63 @@
   --neutral-color: #E7D9C8; /* sand */
 }
 
-/* Header and Navigation */
-.header, .site-header, header {
-  background-color: var(--primary-color) !important;
+/* Force brand colors on all elements */
+body {
+  --primary: var(--primary-color) !important;
+  --secondary: var(--secondary-color) !important;
+  --accent: var(--accent-color) !important;
+}
+
+/* Header styling */
+#header, header, .header {
+  background: var(--primary-color) !important;
   color: white !important;
 }
 
-.header a, .site-header a, header a {
-  color: white !important;
-}
-
-.header a:hover, .site-header a:hover, header a:hover {
-  color: var(--accent-color) !important;
-}
-
-/* PaperMod specific selectors */
-#header {
-  background-color: var(--primary-color) !important;
-}
-
-#header a {
-  color: white !important;
-}
-
-#header a:hover {
-  color: var(--accent-color) !important;
-}
-
-/* Main Navigation */
-nav a, .nav a, #nav a {
-  color: var(--primary-color) !important;
-  font-weight: 600;
-}
-
-nav a:hover, .nav a:hover, #nav a:hover {
-  color: var(--secondary-color) !important;
-}
-
-/* PaperMod navigation */
-#nav {
-  background-color: var(--primary-color) !important;
-}
-
-#nav a {
+#header a, header a, .header a {
   color: white !important;
   font-weight: bold !important;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
-}
-
-#nav a:hover {
-  color: var(--accent-color) !important;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.7) !important;
 }
 
-/* Make sure menu is visible */
+#header a:hover, header a:hover, .header a:hover {
+  color: var(--accent-color) !important;
+}
+
+/* Navigation styling */
+#nav, nav, .nav {
+  background: var(--primary-color) !important;
+}
+
+#nav a, nav a, .nav a {
+  color: white !important;
+  font-weight: bold !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.7) !important;
+  padding: 8px 12px !important;
+  display: inline-block !important;
+}
+
+#nav a:hover, nav a:hover, .nav a:hover {
+  color: var(--accent-color) !important;
+  background: rgba(255,255,255,0.1) !important;
+  border-radius: 4px !important;
+}
+
+/* Menu styling */
 .menu, .nav-menu, #menu {
-  background-color: var(--primary-color) !important;
+  background: var(--primary-color) !important;
 }
 
 .menu a, .nav-menu a, #menu a {
   color: white !important;
   font-weight: bold !important;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.7) !important;
   padding: 8px 12px !important;
 }
 
 .menu a:hover, .nav-menu a:hover, #menu a:hover {
   color: var(--accent-color) !important;
-  background-color: rgba(255,255,255,0.1) !important;
+  background: rgba(255,255,255,0.1) !important;
 }
 
 /* Links */
@@ -87,82 +76,44 @@ a:hover {
   color: var(--secondary-color) !important;
 }
 
-/* Buttons */
-button, .btn {
-  background-color: var(--primary-color) !important;
-  color: white !important;
-  border: none !important;
-}
-
-button:hover, .btn:hover {
-  background-color: var(--secondary-color) !important;
-}
-
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   color: var(--primary-color) !important;
 }
 
-/* Page titles */
-.post-title {
-  color: var(--primary-color) !important;
-}
-
-/* Footer */
-footer {
-  background-color: var(--primary-color) !important;
+/* Buttons */
+button, .btn, input[type="submit"] {
+  background: var(--primary-color) !important;
   color: white !important;
+  border: none !important;
 }
 
-/* Cards and content boxes */
-.card, .content-box {
-  border-left: 4px solid var(--accent-color) !important;
+button:hover, .btn:hover, input[type="submit"]:hover {
+  background: var(--secondary-color) !important;
 }
 
-/* Highlight important text */
-.highlight {
-  background-color: var(--neutral-color) !important;
-  padding: 0.2em 0.4em;
-  border-radius: 3px;
-}
-
-/* Contact form styling */
-input[type="text"], input[type="email"], textarea {
-  border: 2px solid var(--primary-color) !important;
-  border-radius: 4px;
-}
-
-input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
-  border-color: var(--secondary-color) !important;
-  outline: none;
-  box-shadow: 0 0 5px var(--accent-color);
+/* Image styling */
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(31, 107, 107, 0.2);
+  margin: 1rem 0;
 }
 
 /* Logo styling */
 .logo {
   max-height: 60px;
   width: auto;
+  box-shadow: none !important;
 }
 
-/* Brand accent elements */
-.brand-accent {
-  color: var(--accent-color) !important;
-}
-
-.brand-secondary {
-  color: var(--secondary-color) !important;
-}
-
-/* Image styling */
-.content img {
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(31, 107, 107, 0.2);
-  margin: 1rem 0;
-}
-
-/* Responsive adjustments */
+/* Responsive */
 @media (max-width: 768px) {
   .logo {
     max-height: 50px;
+  }
+  
+  #nav a, nav a, .nav a {
+    padding: 6px 8px !important;
+    font-size: 14px !important;
   }
 }
