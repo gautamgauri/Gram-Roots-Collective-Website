@@ -18,8 +18,12 @@ title: "About"
 - **2025** — Pilots launched in **Barwani** with rural women entrepreneurship support.  
 - **Ongoing** — Building women & youth leadership at the grassroots.
 
-![Our Work in Action](/images/community-activity-2.jpeg)
-*Community engagement and learning activities*
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/images/community-activity-2.jpeg" alt="Our Work in Action" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(31, 107, 107, 0.2);">
+  <p style="font-style: italic; color: #666; margin-top: 0.5rem;">Community engagement and learning activities</p>
+</div>
 
-![Digital Literacy Program](/images/digital-literacy.jpeg)
-*Digital literacy training for youth and women*
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/images/digital-literacy.jpeg" alt="Digital Literacy Program" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(31, 107, 107, 0.2);">
+  <p style="font-style: italic; color: #666; margin-top: 0.5rem;">Digital literacy training for youth and women</p>
+</div>

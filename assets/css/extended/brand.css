@@ -52,10 +52,30 @@ nav a:hover, .nav a:hover, #nav a:hover {
 
 #nav a {
   color: white !important;
+  font-weight: bold !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
 }
 
 #nav a:hover {
   color: var(--accent-color) !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.7) !important;
+}
+
+/* Make sure menu is visible */
+.menu, .nav-menu, #menu {
+  background-color: var(--primary-color) !important;
+}
+
+.menu a, .nav-menu a, #menu a {
+  color: white !important;
+  font-weight: bold !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
+  padding: 8px 12px !important;
+}
+
+.menu a:hover, .nav-menu a:hover, #menu a:hover {
+  color: var(--accent-color) !important;
+  background-color: rgba(255,255,255,0.1) !important;
 }
 
 /* Links */
