@@ -1,0 +1,80 @@
+baseURL = "https://gautamgauri.github.io/gram-roots-website/"
+title = "Gram Roots Collective Foundation"
+theme = "PaperMod"
+languageCode = "en"
+paginate = 9
+enableRobotsTXT = true
+
+[params]
+  env = "production"
+  description = "Community-led solutions with rural families in Barwani & Khargone (MP)."
+  author = "Gram Roots Collective Foundation"
+  defaultTheme = "light"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  images = ["images/logo.png"]
+
+[params.assets]
+  favicon = "favicon.ico"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    name = "Programs"
+    url = "/programs/"
+    weight = 20
+  [[menu.main]]
+    name = "Impact"
+    url = "/impact/"
+    weight = 30
+  [[menu.main]]
+    name = "Stories"
+    url = "/stories/"
+    weight = 40
+  [[menu.main]]
+    name = "Resources"
+    url = "/resources/"
+    weight = 45
+  [[menu.main]]
+    name = "Brand"
+    url = "/brand-press-kit/"
+    weight = 47
+  [[menu.main]]
+    name = "Team"
+    url = "/team/"
+    weight = 50
+  [[menu.main]]
+    name = "Where We Work"
+    url = "/where-we-work/"
+    weight = 55
+  [[menu.main]]
+    name = "Governance"
+    url = "/governance/"
+    weight = 60
+  [[menu.main]]
+    name = "Media"
+    url = "/media/"
+    weight = 70
+  [[menu.main]]
+    name = "Donate"
+    url = "/donate/"
+    weight = 80
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 90
+
+[permalinks]
+  posts = "/stories/:slug/"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

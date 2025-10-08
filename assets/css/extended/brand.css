@@ -1,0 +1,64 @@
+:root {
+  --brand-deep-teal: #1F6B6B;
+  --brand-earthy-orange: #C5642A;
+  --brand-warm-mustard: #D9A441;
+  --brand-clay-red: #A14A3A;
+  --brand-river-blue: #2F5F73;
+  --brand-sand: #E7D9C8;
+}
+
+/* Links */
+a { text-decoration-thickness: 2px; }
+a:hover { color: var(--brand-earthy-orange); }
+
+/* Header/nav underline accent on hover/active */
+.header .menu a:hover, .header .menu a.active {
+  border-bottom: 2px solid var(--brand-earthy-orange);
+}
+
+/* Primary button (for forms/donate links inside content) */
+.btn-primary, .buttons .button, .post-content a.button {
+  background: var(--brand-deep-teal);
+  color: #fff;
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  display: inline-block;
+}
+.btn-primary:hover, .buttons .button:hover, .post-content a.button:hover {
+  background: var(--brand-earthy-orange);
+}
+
+/* Section titles with subtle accent bar */
+.post-content h2, .post-content h3 {
+  position: relative;
+  padding-bottom: .2rem;
+}
+.post-content h2::after, .post-content h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 64px;
+  height: 3px;
+  background: linear-gradient(90deg,var(--brand-earthy-orange), var(--brand-warm-mustard));
+  border-radius: 2px;
+}
+
+/* Callout style for blockquotes */
+blockquote {
+  border-left: 4px solid var(--brand-deep-teal);
+  padding-left: 1rem;
+  color: #333;
+  background: #f9faf9;
+}
+
+/* Buttons in donate page using markdown link with class .btn-primary */
+.post-content a[href*="rzp.io"] {
+  background: var(--brand-earthy-orange);
+  color: #fff;
+  padding: 0.55rem 1rem;
+  border-radius: 8px;
+}
+.post-content a[href*="rzp.io"]:hover {
+  background: var(--brand-deep-teal);
+}
