@@ -8,7 +8,7 @@ title: "Home"
 
 **Gram Roots Collective Foundation** works with rural and tribal communities in **Barwani** and **Khargone** (Madhya Pradesh) to advance gender justice, youth leadership, and climate‑friendly livelihoods.
 
-![Community Learning Center](/images/computer%20centre%20photo.jpeg)
+![Community Learning Center](/images/computer-centre-photo.jpeg)
 *Our Community Learning Center in Barwani*
 
 ### What we do

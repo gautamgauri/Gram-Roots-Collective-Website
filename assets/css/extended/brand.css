@@ -9,27 +9,53 @@
 }
 
 /* Header and Navigation */
-.header {
+.header, .site-header, header {
   background-color: var(--primary-color) !important;
   color: white !important;
 }
 
-.header a {
+.header a, .site-header a, header a {
   color: white !important;
 }
 
-.header a:hover {
+.header a:hover, .site-header a:hover, header a:hover {
+  color: var(--accent-color) !important;
+}
+
+/* PaperMod specific selectors */
+#header {
+  background-color: var(--primary-color) !important;
+}
+
+#header a {
+  color: white !important;
+}
+
+#header a:hover {
   color: var(--accent-color) !important;
 }
 
 /* Main Navigation */
-nav a {
+nav a, .nav a, #nav a {
   color: var(--primary-color) !important;
   font-weight: 600;
 }
 
-nav a:hover {
+nav a:hover, .nav a:hover, #nav a:hover {
   color: var(--secondary-color) !important;
+}
+
+/* PaperMod navigation */
+#nav {
+  background-color: var(--primary-color) !important;
+}
+
+#nav a {
+  color: white !important;
+}
+
+#nav a:hover {
+  color: var(--accent-color) !important;
 }
 
 /* Links */

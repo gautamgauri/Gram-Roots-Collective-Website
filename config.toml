@@ -27,6 +27,7 @@ enableRobotsTXT = true
 
 [params.assets]
   favicon = "favicon.ico"
+  customCSS = ["css/extended/brand.css"]
 
 [menu]
   [[menu.main]]

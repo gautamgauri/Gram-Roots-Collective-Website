@@ -18,7 +18,7 @@ Our work is organized across three reinforcing portfolios. Each portfolio combin
 - **Computer Literacy Centres** — bridging the digital divide for youth and women.
 - **Environmental Sustainability** — youth mobilization for climate action, resource conservation, and eco‑friendly livelihoods.
 
-![Computer Centre](/images/copmuter%20centre.jpeg)
+![Computer Centre](/images/computer-centre.jpeg)
 *Our computer literacy centre providing digital skills training*
 
 ![Concept Map](/images/concept-map.png)
