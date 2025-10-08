@@ -1,64 +1,122 @@
+/* Gram Roots Collective Foundation Brand Colors */
 :root {
-  --brand-deep-teal: #1F6B6B;
-  --brand-earthy-orange: #C5642A;
-  --brand-warm-mustard: #D9A441;
-  --brand-clay-red: #A14A3A;
-  --brand-river-blue: #2F5F73;
-  --brand-sand: #E7D9C8;
+  --primary-color: #1F6B6B; /* deep_teal */
+  --secondary-color: #C5642A; /* earthy_orange */
+  --accent-color: #D9A441; /* warm_mustard */
+  --tertiary-color: #A14A3A; /* clay_red */
+  --quaternary-color: #2F5F73; /* river_blue */
+  --neutral-color: #E7D9C8; /* sand */
+}
+
+/* Header and Navigation */
+.header {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.header a {
+  color: white !important;
+}
+
+.header a:hover {
+  color: var(--accent-color) !important;
+}
+
+/* Main Navigation */
+nav a {
+  color: var(--primary-color) !important;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: var(--secondary-color) !important;
 }
 
 /* Links */
-a { text-decoration-thickness: 2px; }
-a:hover { color: var(--brand-earthy-orange); }
-
-/* Header/nav underline accent on hover/active */
-.header .menu a:hover, .header .menu a.active {
-  border-bottom: 2px solid var(--brand-earthy-orange);
+a {
+  color: var(--primary-color) !important;
 }
 
-/* Primary button (for forms/donate links inside content) */
-.btn-primary, .buttons .button, .post-content a.button {
-  background: var(--brand-deep-teal);
-  color: #fff;
-  padding: 0.5rem 0.9rem;
+a:hover {
+  color: var(--secondary-color) !important;
+}
+
+/* Buttons */
+button, .btn {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+  border: none !important;
+}
+
+button:hover, .btn:hover {
+  background-color: var(--secondary-color) !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color) !important;
+}
+
+/* Page titles */
+.post-title {
+  color: var(--primary-color) !important;
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+/* Cards and content boxes */
+.card, .content-box {
+  border-left: 4px solid var(--accent-color) !important;
+}
+
+/* Highlight important text */
+.highlight {
+  background-color: var(--neutral-color) !important;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+/* Contact form styling */
+input[type="text"], input[type="email"], textarea {
+  border: 2px solid var(--primary-color) !important;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+  border-color: var(--secondary-color) !important;
+  outline: none;
+  box-shadow: 0 0 5px var(--accent-color);
+}
+
+/* Logo styling */
+.logo {
+  max-height: 60px;
+  width: auto;
+}
+
+/* Brand accent elements */
+.brand-accent {
+  color: var(--accent-color) !important;
+}
+
+.brand-secondary {
+  color: var(--secondary-color) !important;
+}
+
+/* Image styling */
+.content img {
   border-radius: 8px;
-  display: inline-block;
-}
-.btn-primary:hover, .buttons .button:hover, .post-content a.button:hover {
-  background: var(--brand-earthy-orange);
+  box-shadow: 0 4px 8px rgba(31, 107, 107, 0.2);
+  margin: 1rem 0;
 }
 
-/* Section titles with subtle accent bar */
-.post-content h2, .post-content h3 {
-  position: relative;
-  padding-bottom: .2rem;
-}
-.post-content h2::after, .post-content h3::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 64px;
-  height: 3px;
-  background: linear-gradient(90deg,var(--brand-earthy-orange), var(--brand-warm-mustard));
-  border-radius: 2px;
-}
-
-/* Callout style for blockquotes */
-blockquote {
-  border-left: 4px solid var(--brand-deep-teal);
-  padding-left: 1rem;
-  color: #333;
-  background: #f9faf9;
-}
-
-/* Buttons in donate page using markdown link with class .btn-primary */
-.post-content a[href*="rzp.io"] {
-  background: var(--brand-earthy-orange);
-  color: #fff;
-  padding: 0.55rem 1rem;
-  border-radius: 8px;
-}
-.post-content a[href*="rzp.io"]:hover {
-  background: var(--brand-deep-teal);
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .logo {
+    max-height: 50px;
+  }
 }

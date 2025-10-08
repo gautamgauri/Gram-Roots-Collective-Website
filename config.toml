@@ -18,6 +18,12 @@ enableRobotsTXT = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   images = ["images/logo.png"]
+  
+  # Brand colors
+  colorScheme = "light"
+  primaryColor = "#1F6B6B"
+  secondaryColor = "#C5642A"
+  accentColor = "#D9A441"
 
 [params.assets]
   favicon = "favicon.ico"

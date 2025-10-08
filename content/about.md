@@ -17,3 +17,9 @@ title: "About"
 - **9 June 2025** — Registered as a *Section 8 Company* under the Companies Act, 2013.  
 - **2025** — Pilots launched in **Barwani** with rural women entrepreneurship support.  
 - **Ongoing** — Building women & youth leadership at the grassroots.
+
+![Our Work in Action](/images/WhatsApp%20Image%202025-09-26%20at%207.03.05%20PM%20(1).jpeg)
+*Community engagement and learning activities*
+
+![Digital Literacy Program](/images/WhatsApp%20Image%202025-09-26%20at%207.03.07%20PM%20(1).jpeg)
+*Digital literacy training for youth and women*
