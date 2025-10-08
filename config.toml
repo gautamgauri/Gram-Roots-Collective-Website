@@ -2,8 +2,10 @@ baseURL = "https://gautamgauri.github.io/Gram-Roots-Collective-Website/"
 title = "Gram Roots Collective Foundation"
 theme = "PaperMod"
 languageCode = "en"
-paginate = 9
 enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 9
 
 [params]
   env = "production"
