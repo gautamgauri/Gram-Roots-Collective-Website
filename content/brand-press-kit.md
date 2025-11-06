@@ -3,7 +3,7 @@ title: "Brand & Press Kit"
 ---
 
 ### Downloadables
-- **Primary Logo** (PNG): [/images/logo.png](/images/logo.png)
+- **Primary Logo** (JPG): [/images/logo.jpg](/images/logo.jpg)
 - **Concept Map** (PNG): [/images/concept-map.png](/images/concept-map.png)
 - **OpenGraph / Social preview**: uses the primary logo (1200×630 recommended).
 

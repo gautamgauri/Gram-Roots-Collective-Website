@@ -17,7 +17,7 @@ enableRobotsTXT = true
   ShowPostNavLinks = false
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  images = ["images/logo.png"]
+  images = ["images/logo.jpg"]
   
   # Brand colors
   colorScheme = "light"
